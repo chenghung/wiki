@@ -1,5 +1,12 @@
 # ZFS (Zettabyte File System)
 
+## 介紹
+
+### vdev
+
+### zpool
+
+
 ## 安裝
 
 arch linux
@@ -8,7 +15,6 @@ $ yay -S linux510-zfs
 $ zfs --version
 zfs-kmod-2.0.1-1
 ```
-
 
 ## 問題排除
 
@@ -42,3 +48,4 @@ $ sudo reboot
 ## 參考資料
 
 * [arch linux - zfs](https://wiki.archlinux.org/index.php/ZFS)
+* [freebsd - zfs](https://www.freebsd.org/doc/zh_TW/books/handbook/zfs.html#zfs-differences)
