@@ -2,7 +2,17 @@
 
 ## 介紹
 
-### vdev
+### vdev (virtual device)
+
+是用來組合成pool的最基本單位
+以下是vdev的類型
+* block device (i.g. /dev/sda, /dev/sda1)
+* file (i.g. /tmp/file1)
+* mirror
+* raidz, raidz2, raidz3
+* log
+* cache
+* spare
 
 ### zpool
 
