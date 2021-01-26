@@ -45,6 +45,23 @@ $ systemctl enable zfs.target
 $ sudo reboot
 ```
 
+### 加了新的vdev到pool後, zfs檔案系統的available size沒有增加
+
+
+預設zfs並沒有打開autoexpand
+所以加了一個新的vdev進到pool, 並不會自動調整available size
+```
+$ sudo zpool get autoexpand test5
+NAME   PROPERTY    VALUE   SOURCE
+test5  autoexpand  off      local
+```
+
+可以透過下列指令打開autoexpand
+```
+$ sudo zpool set autoexpand=on test5
+```
+
+
 ## 參考資料
 
 * [arch linux - zfs](https://wiki.archlinux.org/index.php/ZFS)
