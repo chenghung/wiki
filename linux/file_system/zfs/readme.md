@@ -14,6 +14,8 @@
 * cache
 * spare
 
+![zfs-vdev](https://github.com/chenghung/wiki/blob/master/linux/file_system/zfs/zfs-vdev-3.png)
+
 ### zpool
 
 
