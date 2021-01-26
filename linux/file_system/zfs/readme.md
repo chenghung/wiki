@@ -77,3 +77,4 @@ $ sudo zpool set autoexpand=on test5
 * [arch linux - zfs](https://wiki.archlinux.org/index.php/ZFS)
 * [freebsd - zfs](https://www.freebsd.org/doc/zh_TW/books/handbook/zfs.html#zfs-differences)
 * [zfs - 101 (這篇介紹很詳細, 推薦)](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/)
+* [migrate data to zfs mirror](https://jrs-s.net/2020/03/10/rebalancing-data-on-zfs-mirrors/)
