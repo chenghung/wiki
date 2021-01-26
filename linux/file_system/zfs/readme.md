@@ -77,6 +77,18 @@ $ sudo zpool set autoexpand=on test5
 ```
 
 
+### 無法從pool移除vdev
+
+```
+$sudo zpool remove test5 /file3
+cannot remove /file3: out of space
+```
+
+有兩個可能的原因
+* 現在存放的資料超過移除後的總容量上限
+* vdev的size太小, 建議至少使用1G以上
+
+
 ## 參考資料
 
 * [arch linux - zfs](https://wiki.archlinux.org/index.php/ZFS)
