@@ -18,6 +18,8 @@
 
 ### zpool
 
+zpool是由至少一個vdev所組成
+
 ![zfs-zpool](https://github.com/chenghung/wiki/blob/master/linux/file_system/zfs/zfs-pool-vdev-disk.png)
 
 ## 安裝
