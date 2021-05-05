@@ -18,7 +18,7 @@
 
 ### traefik怎麼透過label讓request可以被route到對應的服務
 
-![](https://doc.traefik.io/traefik/assets/img/providers/docker.png | width=100)
+<img src="https://doc.traefik.io/traefik/assets/img/providers/docker.png" width="700" />
 
 ### traefik中的元件
 
