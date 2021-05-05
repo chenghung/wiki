@@ -13,6 +13,12 @@
 - 可以自動發現服務(service discovery), 減少管理
 - 整合letsencrypt, 可以快速申請ssl certificate
 
+### traefik label
+
+
+### traefik怎麼透過label讓request可以被route到對應的服務
+
+![traefik-docker](https://doc.traefik.io/traefik/assets/img/providers/docker.png)
 
 ### traefik中的元件
 
