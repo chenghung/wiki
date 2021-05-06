@@ -13,3 +13,8 @@
 
 
 ### OFDMA (Orthogonal frequency division multiple access)
+
+
+## 參考資料
+
+- [Wi-Fi-6-technology-explained-from-speed-to-security-and-more](https://searchnetworking.techtarget.com/feature/Wi-Fi-6-technology-explained-from-speed-to-security-and-more?utm_source=youtube&utm_medium=description&utm_campaign=qCs1Yiwp-sc&offer=video-qCs1Yiwp-sc)
