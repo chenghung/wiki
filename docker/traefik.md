@@ -4,7 +4,7 @@
 
 ## 介紹
 
-- 與docker直接整合的load banalcer
+- 容易與docker/docker-swarm/k8s 直接整合的load banalcer
 - 使用label方式, 動態掛載(新增或移除)其他服務的docker container
 
 
@@ -16,6 +16,12 @@
 ### traefik label
 
 
+#### traefik provider
+
+traefik定義好一套抽象的
+
+
+
 ### traefik怎麼透過label讓request可以被route到對應的服務
 
 <img src="https://doc.traefik.io/traefik/assets/img/providers/docker.png" width="700" />
@@ -23,8 +29,6 @@
 ### traefik中的元件
 
 #### router
-
-#### provider
 
 #### orchestrator
 
