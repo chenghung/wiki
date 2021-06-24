@@ -22,6 +22,14 @@ component通常是對應到UI上某一個區塊
 
 ## Virtual DOM
 
+Virtual DOM是React很高效的一個核心技術  
+React會複製兩份Browser當前的DOM tree  
+當網頁的狀態改變時(例如: call API拿到新的資料, 使用者輸入一些東西)  
+React會更新其中一個DOM Copy, 並且跟另外一個DOM Copy做diff
+
+![](https://github.com/chenghung/wiki/blob/master/programming/web/react/react-virtual-dom.png)
+
+
 
 #### 參考資料
 
