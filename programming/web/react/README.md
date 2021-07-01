@@ -1,6 +1,6 @@
 # React
 
-React是一個由facebook open source的前端的component based library
+React是一個由facebook開源的前端的component based library
 
 它不是一個完整的framefork
 所以不會提供像是http, form validation, i18n等之類的功能 
@@ -25,7 +25,9 @@ component通常是對應到UI上某一個區塊
 Virtual DOM是React很高效的一個核心技術  
 React會複製兩份Browser當前的DOM tree  
 當網頁的狀態改變時(例如: call API拿到新的資料, 使用者輸入一些東西)  
-React會更新其中一個DOM Copy, 並且跟另外一個DOM Copy做diff
+React會更新其中一個DOM Copy, 並且跟另外一個DOM Copy做diff  
+接者把變更的部份patch到browser的DOM tree, 這樣browser只需要重新render有變動的地方
+
 
 ![](https://github.com/chenghung/wiki/blob/master/programming/web/react/react-virtual-dom.png)
 
