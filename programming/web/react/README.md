@@ -2,8 +2,10 @@
 
 React是一個由facebook開源的前端的component based library
 
-它不是一個完整的framefork
+它主要用來開發前端網頁使用者界面  
+它不是一個完整的framefork  
 所以不會提供像是http, form validation, i18n等之類的功能 
+
 
 ## Component
 
@@ -18,6 +20,32 @@ component通常是對應到UI上某一個區塊
 
 使用component的好處
 - developer可以組合多個component, code的重用度更高
+
+
+### Component分類
+
+
+**Functinoal Component**
+
+```javascript=
+function Welcome(props) {
+  return <h1>hello, {props.name}</h1>;
+}
+```
+
+**Stateful Class Component**
+
+```javascript=
+class Welcome extends Component
+{
+  render() {
+    return <h1>hello, {this.props.name]</h1>
+  }
+}
+
+```
+
+目前react社群主流開始朝向使用Functional Component
 
 
 ## Virtual DOM
